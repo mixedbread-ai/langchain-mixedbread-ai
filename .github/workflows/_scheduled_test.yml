@@ -1,5 +1,5 @@
 name: Scheduled tests
-run-name: langchain-cohere Scheduled tests
+run-name: langchain-mixedbreadai Scheduled tests
 
 on:
   workflow_dispatch:
@@ -43,7 +43,7 @@ jobs:
 
       - name: Run integration tests
         env:
-          COHERE_API_KEY: ${{ secrets.COHERE_API_KEY }}
+          MXBAI_API_KEY: ${{ secrets.MXBAI_API_KEY }}
         run: make integration_tests
         working-directory: ${{ matrix.working-directory }}
 

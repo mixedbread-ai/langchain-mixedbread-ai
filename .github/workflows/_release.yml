@@ -159,7 +159,7 @@ jobs:
 
       - name: Run integration tests
         env:
-          COHERE_API_KEY: ${{ secrets.COHERE_API_KEY }}
+          MXBAI_API_KEY: ${{ secrets.MXBAI_API_KEY }}
         run: make integration_tests
         working-directory: ${{ inputs.working-directory }}
 
