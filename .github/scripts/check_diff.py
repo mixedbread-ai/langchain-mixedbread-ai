@@ -2,7 +2,7 @@ import json
 import sys
 from typing import Dict
 
-LIB_DIRS = ["libs/mixedbreadai"]
+LIB_DIRS = ["libs/mixedbread-ai"]
 
 if __name__ == "__main__":
     files = sys.argv[1:]

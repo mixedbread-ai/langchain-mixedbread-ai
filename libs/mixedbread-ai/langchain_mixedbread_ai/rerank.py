@@ -9,10 +9,10 @@ from langchain_core.documents.compressor import BaseDocumentCompressor
 from langchain_core.pydantic_v1 import Field
 from mixedbread_ai import RankedDocument  # type: ignore
 
-from langchain_mixedbreadai.client import MixedBreadAIClient
+from langchain_mixedbread_ai.client import MixedbreadAIClient
 
 
-class MixedbreadAIRerank(MixedBreadAIClient, BaseDocumentCompressor):
+class MixedbreadAIRerank(MixedbreadAIClient, BaseDocumentCompressor):
     """
     Document compressor that uses `Mixedbread AI Rerank API`.
 

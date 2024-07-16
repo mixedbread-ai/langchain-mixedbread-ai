@@ -1,4 +1,4 @@
-from langchain_mixedbreadai import __all__
+from langchain_mixedbread_ai import __all__
 
 EXPECTED_ALL = ["MixedbreadAIEmbeddings", "MixedbreadAIRerank", "__version__"]
 

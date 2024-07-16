@@ -12,7 +12,7 @@ on:
       working-directory:
         required: true
         type: string
-        default: 'libs/mixedbreadai'
+        default: 'libs/mixedbread-ai'
 
 env:
   PYTHON_VERSION: "3.11"

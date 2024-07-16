@@ -10,7 +10,7 @@ repository = "https://github.com/mixedbread-ai/langchain-mixedbread-ai"
 license = "MIT"
 
 [tool.poetry.urls]
-"Source Code" = "https://github.com/mixedbread-ai/langchain-mixedbreadai.git/tree/main/libs/mixedbread-ai"
+"Source Code" = "https://github.com/mixedbread-ai/langchain-mixedbread-ai.git/tree/main/libs/mixedbread-ai"
 
 [tool.poetry.dependencies]
 python = ">=3.8.1,<4.0"

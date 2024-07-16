@@ -1,4 +1,4 @@
-from langchain_mixedbreadai.rerank import MixedbreadAIRerank
+from langchain_mixedbread_ai.rerank import MixedbreadAIRerank
 
 
 def test_initialization() -> None:
