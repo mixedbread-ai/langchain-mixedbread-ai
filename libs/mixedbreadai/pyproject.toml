@@ -1,16 +1,16 @@
 [tool.poetry]
-name = "langchain-mixedbreadai"
+name = "langchain-mixedbread-ai"
 version = "0.1.0"
 description = "An integration package connecting Mixedbread AI and LangChain"
 authors = [
-  "mixedbreadai <support@mixedbread.ai>",
+  "mixedbread.ai <support@mixedbread.ai>",
 ]
 readme = "README.md"
-repository = "https://github.com/mixedbread-ai/langchain-mixedbreadai"
+repository = "https://github.com/mixedbread-ai/langchain-mixedbread-ai"
 license = "MIT"
 
 [tool.poetry.urls]
-"Source Code" = "https://github.com/mixedbread-ai/langchain-mixedbreadai.git/tree/main/libs/mixedbreadai"
+"Source Code" = "https://github.com/mixedbread-ai/langchain-mixedbreadai.git/tree/main/libs/mixedbread-ai"
 
 [tool.poetry.dependencies]
 python = ">=3.8.1,<4.0"
