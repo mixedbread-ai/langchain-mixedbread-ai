@@ -1,5 +1,5 @@
 name: Scheduled tests
-run-name: langchain-mixedbreadai Scheduled tests
+run-name: langchain-mixedbread-ai Scheduled tests
 
 on:
   workflow_dispatch:
@@ -20,7 +20,7 @@ jobs:
           - "3.8"
           - "3.11"
         working-directory:
-          - "libs/mixedbreadai"
+          - "libs/mixedbread-ai"
 
     steps:
       - uses: actions/checkout@v4

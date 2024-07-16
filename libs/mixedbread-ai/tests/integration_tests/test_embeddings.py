@@ -2,11 +2,11 @@
 
 import pytest
 
-from langchain_mixedbreadai.embeddings import MixedbreadAIEmbeddings
+from langchain_mixedbread_ai.embeddings import MixedbreadAIEmbeddings
 
 
 @pytest.mark.vcr()
-def test_langchain_mixedbreadai_embedding_documents() -> None:
+def test_langchain_mixedbread_ai_embedding_documents() -> None:
     documents = ["foo bar"]
     embedding = MixedbreadAIEmbeddings()
     output = embedding.embed_documents(documents)
@@ -15,7 +15,7 @@ def test_langchain_mixedbreadai_embedding_documents() -> None:
 
 
 @pytest.mark.vcr()
-def test_langchain_mixedbreadai_embedding_query() -> None:
+def test_langchain_mixedbread_ai_embedding_query() -> None:
     document = "foo bar"
     embedding = MixedbreadAIEmbeddings()
     output = embedding.embed_query(document)

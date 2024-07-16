@@ -24,8 +24,8 @@ integration_test integration_tests:
 PYTHON_FILES=.
 MYPY_CACHE=.mypy_cache
 lint format: PYTHON_FILES=.
-lint_diff format_diff: PYTHON_FILES=$(shell git diff --relative=libs/partners/mixedbreadai --name-only --diff-filter=d master | grep -E '\.py$$|\.ipynb$$')
-lint_package: PYTHON_FILES=langchain_mixedbreadai
+lint_diff format_diff: PYTHON_FILES=$(shell git diff --relative=libs/partners/mixedbread-ai --name-only --diff-filter=d master | grep -E '\.py$$|\.ipynb$$')
+lint_package: PYTHON_FILES=langchain_mixedbread_ai
 lint_tests: PYTHON_FILES=tests
 lint_tests: MYPY_CACHE=.mypy_cache_test
 
@@ -45,7 +45,7 @@ spell_check:
 spell_fix:
 	poetry run codespell --toml pyproject.toml -w
 
-check_imports: $(shell find langchain_mixedbreadai -name '*.py')
+check_imports: $(shell find langchain_mixedbread_ai -name '*.py')
 	poetry run python ./scripts/check_imports.py $^
 
 ######################

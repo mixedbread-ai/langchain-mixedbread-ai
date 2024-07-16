@@ -8,7 +8,7 @@ from mixedbread_ai.core import RequestOptions  # type: ignore
 USER_AGENT = "@mixedbread-ai/langchain"
 
 
-class MixedBreadAIClient(BaseModel):
+class MixedbreadAIClient(BaseModel):
     _client: MixedbreadAI = Field(default=None, exclude=True)
     _aclient: AsyncMixedbreadAI = Field(default=None, exclude=True)
     _request_options: Optional[RequestOptions] = Field(default=None, exclude=True)

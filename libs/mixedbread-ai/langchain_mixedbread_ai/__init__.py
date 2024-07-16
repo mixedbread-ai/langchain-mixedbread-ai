@@ -1,7 +1,7 @@
 from importlib import metadata
 
-from langchain_mixedbreadai.embeddings import MixedbreadAIEmbeddings
-from langchain_mixedbreadai.rerank import MixedbreadAIRerank
+from langchain_mixedbread_ai.embeddings import MixedbreadAIEmbeddings
+from langchain_mixedbread_ai.rerank import MixedbreadAIRerank
 
 try:
     __version__ = metadata.version(__package__)

@@ -6,12 +6,12 @@ from langchain_core.pydantic_v1 import Field
 from langchain_core.utils.iter import batch_iterate
 from mixedbread_ai.types import EncodingFormat, TruncationStrategy  # type: ignore
 
-from langchain_mixedbreadai.client import MixedBreadAIClient
+from langchain_mixedbread_ai.client import MixedbreadAIClient
 
 logger = logging.getLogger(__name__)
 
 
-class MixedbreadAIEmbeddings(MixedBreadAIClient, Embeddings):
+class MixedbreadAIEmbeddings(MixedbreadAIClient, Embeddings):
     """
     Implements the Embeddings interface with Mixedbread AI's embedding API.
 

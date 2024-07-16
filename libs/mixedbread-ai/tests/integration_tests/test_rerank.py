@@ -1,10 +1,10 @@
 import pytest
 
-from langchain_mixedbreadai import MixedbreadAIRerank
+from langchain_mixedbread_ai import MixedbreadAIRerank
 
 
 @pytest.mark.vcr()
-def test_langchain_mixedbreadai_rerank() -> None:
+def test_langchain_mixedbread_ai_rerank() -> None:
     texts = ["Mockingbird", "Moby-Dick"]
     query = "Moby-Dick"
     reranker = MixedbreadAIRerank(top_n=3)

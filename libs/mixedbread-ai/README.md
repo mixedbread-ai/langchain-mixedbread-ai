@@ -1,11 +1,11 @@
-# langchain-mixedbreadai
+# langchain-mixedbread-ai
 
-This package contains the LangChain integration with MixedbreadAI
+This package contains the LangChain integration with Mixedbread AI
 
 ## Installation
 
 ```bash
-pip install -U langchain-mixedbreadai
+pip install -U langchain-mixedbread-ai
 ```
 
 And you should configure credentials by setting the following environment variables:
@@ -17,7 +17,7 @@ And you should configure credentials by setting the following environment variab
 `MixedbreadAIEmbeddings` class exposes embeddings from MixedbreadAI.
 
 ```python
-from langchain_mixedbreadai import MixedbreadAIEmbeddings
+from langchain_mixedbread_ai import MixedbreadAIEmbeddings
 
 embeddings = MixedbreadAIEmbeddings(mxbai_api_key="a legit baker id")
 embeddings.embed_query("What is the meaning of life?")
@@ -28,7 +28,7 @@ embeddings.embed_query("What is the meaning of life?")
 `MixedbreadAIRerank` class exposes reranker from MixedbreadAI.
 
 ```python
-from langchain_mixedbreadai import MixedbreadAIRerank
+from langchain_mixedbread_ai import MixedbreadAIRerank
 
 reranker = MixedbreadAIRerank(mxbai_api_key="a legit baker id", top_n=3)
 reranker.rerank(
